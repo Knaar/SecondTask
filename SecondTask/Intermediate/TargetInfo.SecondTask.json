@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SecondTask",
+			"Path": "E:\\UnrealProjects\\SecondTask\\SecondTask\\Source\\SecondTask.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SecondTaskEditor",
+			"Path": "E:\\UnrealProjects\\SecondTask\\SecondTask\\Source\\SecondTaskEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

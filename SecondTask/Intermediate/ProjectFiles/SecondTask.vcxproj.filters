@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SecondTask.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1FCEAE66-B554-457F-A033-5D1FA36D3E4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SecondTask.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SecondTaskEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{05C2868B-80B1-45BB-AB8C-0308735D65F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SecondTask">
+      <UniqueIdentifier>{C50859C5-9E01-4A3D-A5C0-2CB512046FA8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SecondTask\SecondTask.Build.cs">
+      <Filter>Source\SecondTask</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SecondTask\SecondTask.cpp">
+      <Filter>Source\SecondTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\SecondTask.h">
+      <Filter>Source\SecondTask</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondTask\SecondTaskGameModeBase.cpp">
+      <Filter>Source\SecondTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\SecondTaskGameModeBase.h">
+      <Filter>Source\SecondTask</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

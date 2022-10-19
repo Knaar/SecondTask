@@ -1,0 +1,2 @@
+E:\UnrealProjects\SecondTask\SecondTask\Intermediate\Build\Win64\UE4Editor\Development\SecondTask\Definitions.SecondTask.h
+E:\UnrealProjects\SecondTask\SecondTask\Source\SecondTask\SecondTask.h

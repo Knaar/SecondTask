@@ -1,0 +1,9 @@
+E:\UnrealProjects\SecondTask\SecondTask\Intermediate\Build\Win64\UE4Editor\Development\SecondTask\Definitions.SecondTask.h
+E:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\UnrealProjects\SecondTask\SecondTask\Source\SecondTask/SecondTaskGameModeBase.h
+E:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+E:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+E:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+E:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\UnrealProjects\SecondTask\SecondTask\Intermediate\Build\Win64\UE4Editor\Inc\SecondTask\SecondTaskGameModeBase.generated.h

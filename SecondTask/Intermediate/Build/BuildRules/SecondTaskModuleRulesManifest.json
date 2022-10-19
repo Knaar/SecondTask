@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UnrealProjects\\SecondTask\\SecondTask\\Source\\SecondTask\\SecondTask.Build.cs",
+		"E:\\UnrealProjects\\SecondTask\\SecondTask\\Source\\SecondTask.Target.cs",
+		"E:\\UnrealProjects\\SecondTask\\SecondTask\\Source\\SecondTaskEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
