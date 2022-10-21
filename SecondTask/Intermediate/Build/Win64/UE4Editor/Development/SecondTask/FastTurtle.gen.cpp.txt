@@ -1,0 +1,7 @@
+E:\UnrealProjects\SecondTask\SecondTask\Intermediate\Build\Win64\UE4Editor\Development\SecondTask\Definitions.SecondTask.h
+E:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\UnrealProjects\SecondTask\SecondTask\Source\SecondTask/Actors/FastTurtle.h
+E:\UnrealProjects\SecondTask\SecondTask\Source\SecondTask\Actors\BeachAnimal.h
+E:\UnrealProjects\SecondTask\SecondTask\Intermediate\Build\Win64\UE4Editor\Inc\SecondTask\BeachAnimal.generated.h
+E:\UnrealProjects\SecondTask\SecondTask\Intermediate\Build\Win64\UE4Editor\Inc\SecondTask\FastTurtle.generated.h

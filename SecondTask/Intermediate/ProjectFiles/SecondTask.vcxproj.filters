@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SecondTask.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1FCEAE66-B554-457F-A033-5D1FA36D3E4A}</UniqueIdentifier>
+      <UniqueIdentifier>{180D66CA-AF11-44ED-8C49-C2B4676FC31C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SecondTask.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{05C2868B-80B1-45BB-AB8C-0308735D65F6}</UniqueIdentifier>
+      <UniqueIdentifier>{0797935E-BEE8-46ED-9FC6-DBA67E35DB8A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\SecondTask">
-      <UniqueIdentifier>{C50859C5-9E01-4A3D-A5C0-2CB512046FA8}</UniqueIdentifier>
+      <UniqueIdentifier>{588455FD-959D-4AD7-85F7-FD1216B572BA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SecondTask\SecondTask.Build.cs">
       <Filter>Source\SecondTask</Filter>
@@ -40,6 +43,54 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\SecondTask\SecondTaskGameModeBase.h">
       <Filter>Source\SecondTask</Filter>
+    </ClInclude>
+    <Filter Include="Source\SecondTask\Actors">
+      <UniqueIdentifier>{636A3E74-3820-4696-AC3E-5C2D2B18965D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SecondTask\Actors\BeachAnimal.cpp">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Actors\BeachAnimal.h">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondTask\Actors\FastTurtle.cpp">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Actors\FastTurtle.h">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondTask\Actors\Nest.cpp">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Actors\Nest.h">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondTask\Actors\SlowTurtle.cpp">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Actors\SlowTurtle.h">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondTask\Actors\StupidTurtle.cpp">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Actors\StupidTurtle.h">
+      <Filter>Source\SecondTask\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\SecondTask\Wigdets">
+      <UniqueIdentifier>{3F1A713F-4A9A-4042-8084-D938E496B2C3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SecondTask\Wigdets\MainButtonWidget.cpp">
+      <Filter>Source\SecondTask\Wigdets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Wigdets\MainButtonWidget.h">
+      <Filter>Source\SecondTask\Wigdets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondTask\Wigdets\MyHUD.cpp">
+      <Filter>Source\SecondTask\Wigdets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondTask\Wigdets\MyHUD.h">
+      <Filter>Source\SecondTask\Wigdets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
