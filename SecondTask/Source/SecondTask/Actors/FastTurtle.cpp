@@ -1,9 +1,6 @@
 #include "FastTurtle.h"
 
 
-	
-
-
 void AFastTurtle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

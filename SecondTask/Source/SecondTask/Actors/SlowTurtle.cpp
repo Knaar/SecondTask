@@ -13,22 +13,18 @@ void ASlowTurtle::Tick(float DeltaTime)
 void ASlowTurtle::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	GetWorld()->GetTimerManager().SetTimer(Timer,this,&ASlowTurtle::Stop,1,false,1);
+
+	GetWorld()->GetTimerManager().SetTimer(Timer, this, &ASlowTurtle::Stop, 1, false, 1);
 }
 
 void ASlowTurtle::Go()
 {
-	BCanMove=true;
-	GetWorld()->GetTimerManager().SetTimer(Timer,this,&ASlowTurtle::Stop,1.0f,false,1.0f);
+	BCanMove = true;
+	GetWorld()->GetTimerManager().SetTimer(Timer, this, &ASlowTurtle::Stop, 1.0f, false, 1.0f);
 }
 
 void ASlowTurtle::Stop()
 {
-	BCanMove=false;
-	GetWorld()->GetTimerManager().SetTimer(Timer,this,&ASlowTurtle::Go,0.5f,false,0.5f);
+	BCanMove = false;
+	GetWorld()->GetTimerManager().SetTimer(Timer, this, &ASlowTurtle::Go, 0.5f, false, 0.5f);
 }
-
-
-
-

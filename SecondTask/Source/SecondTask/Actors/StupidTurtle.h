@@ -11,12 +11,11 @@ class SECONDTASK_API AStupidTurtle : public ABeachAnimal
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void BeginPlay() override;
-	
+
 	FTimerHandle Timer;
 
-	bool bRightDirection=true;
+	bool bRightDirection = true;
 
 	void GoToRightDirection();
 	void GoToWrongDirection();
-	
 };

@@ -1,11 +1,9 @@
 #pragma once
-
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "MainButtonWidget.generated.h"
 
 class ANest;
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMainButtonDelegate);
 
 class UButton;
 
@@ -35,10 +33,7 @@ protected:
 
 	UPROPERTY(meta=(BindWidget))
 	UButton* Button3;
-
-	UPROPERTY(BlueprintAssignable)
-	FMainButtonDelegate MainButtonDelegate;
-
+	
 	UFUNCTION()
 	void Button1Clicked();
 	

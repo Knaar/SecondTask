@@ -13,11 +13,10 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeNest() {}
 // Cross Module References
-	SECONDTASK_API UFunction* Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature();
-	UPackage* Z_Construct_UPackage__Script_SecondTask();
 	SECONDTASK_API UClass* Z_Construct_UClass_ANest_NoRegister();
 	SECONDTASK_API UClass* Z_Construct_UClass_ANest();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	UPackage* Z_Construct_UPackage__Script_SecondTask();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ATargetPoint_NoRegister();
@@ -25,28 +24,6 @@ void EmptyLinkFunctionForGeneratedCodeNest() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	SECONDTASK_API UClass* Z_Construct_UClass_ABeachAnimal_NoRegister();
 // End Cross Module References
-	struct Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Actors/Nest.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_SecondTask, nullptr, "MainDelegate__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_SecondTask_MainDelegate__DelegateSignature_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	DEFINE_FUNCTION(ANest::execGiveBirth)
 	{
 		P_FINISH;
@@ -115,10 +92,6 @@ void EmptyLinkFunctionForGeneratedCodeNest() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnTurtleClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnTurtleClass;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnTurtleRate_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SpawnTurtleRate;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -174,20 +147,12 @@ void EmptyLinkFunctionForGeneratedCodeNest() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleClass = { "SpawnTurtleClass", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANest, SpawnTurtleClass), Z_Construct_UClass_ABeachAnimal_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleClass_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleRate_MetaData[] = {
-		{ "Category", "Components" },
-		{ "ModuleRelativePath", "Actors/Nest.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleRate = { "SpawnTurtleRate", nullptr, (EPropertyFlags)0x0020080000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANest, SpawnTurtleRate), METADATA_PARAMS(Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleRate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANest_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANest_Statics::NewProp_NestMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANest_Statics::NewProp_TurtleSpawnPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANest_Statics::NewProp_TargetToTurtleMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANest_Statics::NewProp_AudioTurtleBirthComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleClass,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANest_Statics::NewProp_SpawnTurtleRate,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANest_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANest>::IsAbstract,
@@ -216,7 +181,7 @@ void EmptyLinkFunctionForGeneratedCodeNest() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANest, 3477993618);
+	IMPLEMENT_CLASS(ANest, 2174154760);
 	template<> SECONDTASK_API UClass* StaticClass<ANest>()
 	{
 		return ANest::StaticClass();

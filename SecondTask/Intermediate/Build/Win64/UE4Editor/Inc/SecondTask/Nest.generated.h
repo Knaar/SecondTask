@@ -13,25 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SECONDTASK_Nest_generated_h
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_13_DELEGATE \
-static inline void FMainDelegate_DelegateWrapper(const FMulticastScriptDelegate& MainDelegate) \
-{ \
-	MainDelegate.ProcessMulticastDelegate<UObject>(NULL); \
-}
-
-
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_SPARSE_DATA
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_RPC_WRAPPERS \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_SPARSE_DATA
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGiveBirth);
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGiveBirth);
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_INCLASS_NO_PURE_DECLS \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANest(); \
 	friend struct Z_Construct_UClass_ANest_Statics; \
@@ -40,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ANest)
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_INCLASS \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesANest(); \
 	friend struct Z_Construct_UClass_ANest_Statics; \
@@ -49,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(ANest)
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_STANDARD_CONSTRUCTORS \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANest(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANest) \
@@ -62,7 +55,7 @@ private: \
 public:
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_ENHANCED_CONSTRUCTORS \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANest(ANest&&); \
@@ -73,36 +66,35 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANest); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANest)
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_PRIVATE_PROPERTY_OFFSET \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__NestMesh() { return STRUCT_OFFSET(ANest, NestMesh); } \
 	FORCEINLINE static uint32 __PPO__TurtleSpawnPoint() { return STRUCT_OFFSET(ANest, TurtleSpawnPoint); } \
 	FORCEINLINE static uint32 __PPO__TargetToTurtleMovement() { return STRUCT_OFFSET(ANest, TargetToTurtleMovement); } \
 	FORCEINLINE static uint32 __PPO__AudioTurtleBirthComponent() { return STRUCT_OFFSET(ANest, AudioTurtleBirthComponent); } \
-	FORCEINLINE static uint32 __PPO__SpawnTurtleClass() { return STRUCT_OFFSET(ANest, SpawnTurtleClass); } \
-	FORCEINLINE static uint32 __PPO__SpawnTurtleRate() { return STRUCT_OFFSET(ANest, SpawnTurtleRate); }
+	FORCEINLINE static uint32 __PPO__SpawnTurtleClass() { return STRUCT_OFFSET(ANest, SpawnTurtleClass); }
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_15_PROLOG
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_GENERATED_BODY_LEGACY \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_12_PROLOG
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_PRIVATE_PROPERTY_OFFSET \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_SPARSE_DATA \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_RPC_WRAPPERS \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_INCLASS \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_STANDARD_CONSTRUCTORS \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_PRIVATE_PROPERTY_OFFSET \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_SPARSE_DATA \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_RPC_WRAPPERS \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_INCLASS \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SecondTask_Source_SecondTask_Actors_Nest_h_18_GENERATED_BODY \
+#define SecondTask_Source_SecondTask_Actors_Nest_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_PRIVATE_PROPERTY_OFFSET \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_SPARSE_DATA \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_INCLASS_NO_PURE_DECLS \
-	SecondTask_Source_SecondTask_Actors_Nest_h_18_ENHANCED_CONSTRUCTORS \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_PRIVATE_PROPERTY_OFFSET \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_SPARSE_DATA \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_INCLASS_NO_PURE_DECLS \
+	SecondTask_Source_SecondTask_Actors_Nest_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

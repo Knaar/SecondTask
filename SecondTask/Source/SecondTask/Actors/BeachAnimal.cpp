@@ -10,27 +10,27 @@ ABeachAnimal::ABeachAnimal()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	SceneComponent=CreateDefaultSubobject<USceneComponent>("SceneComponent");
+	SceneComponent = CreateDefaultSubobject<USceneComponent>("SceneComponent");
 	SetRootComponent(SceneComponent);
-	
+
 	BodyMesh = CreateDefaultSubobject<UStaticMeshComponent>("BodyMesh");
 	BodyMesh->SetupAttachment(SceneComponent);
 
-	ShellMesh=CreateDefaultSubobject<UStaticMeshComponent>("ShellMesh");
+	ShellMesh = CreateDefaultSubobject<UStaticMeshComponent>("ShellMesh");
 	ShellMesh->SetupAttachment(SceneComponent);
 
-	CrawlingSounds=CreateDefaultSubobject<UAudioComponent>("CrawlingSounds");
+	CrawlingSounds = CreateDefaultSubobject<UAudioComponent>("CrawlingSounds");
 	CrawlingSounds->SetupAttachment(SceneComponent);
 
-	DivingSounds=CreateDefaultSubobject<UAudioComponent>("DivingSounds");
+	DivingSounds = CreateDefaultSubobject<UAudioComponent>("DivingSounds");
 	DivingSounds->SetupAttachment(SceneComponent);
 	DivingSounds->SetAutoActivate(false);
 
-	EggShell=CreateDefaultSubobject<UParticleSystemComponent>("EggShell");
+	EggShell = CreateDefaultSubobject<UParticleSystemComponent>("EggShell");
 	EggShell->SetupAttachment(SceneComponent);
 	EggShell->SetAutoActivate(false);
 
-	WaterSplash=CreateDefaultSubobject<UParticleSystemComponent>("WaterSplash");
+	WaterSplash = CreateDefaultSubobject<UParticleSystemComponent>("WaterSplash");
 	WaterSplash->SetupAttachment(SceneComponent);
 	WaterSplash->SetAutoActivate(false);
 }
@@ -65,7 +65,7 @@ FRotator ABeachAnimal::GetRotation()
 
 void ABeachAnimal::KeepYourDistance()
 {
-	if(FVector::Distance(GetActorLocation(),TargetPoint->GetActorLocation())<=MinimalDistance)
+	if (FVector::Distance(GetActorLocation(), TargetPoint->GetActorLocation()) <= MinimalDistance)
 	{
 		CrawlingSounds->Deactivate();
 		WaterSplash->Activate();
@@ -75,13 +75,13 @@ void ABeachAnimal::KeepYourDistance()
 
 void ABeachAnimal::Diving()
 {
-	if(!bTurtleAlive)return;
-	
+	if (!bTurtleAlive)return;
+
 	if (DivingSounds)
 	{
-		bTurtleAlive=false;
+		bTurtleAlive = false;
 		DivingSounds->Activate();
-		GetWorld()->GetTimerManager().SetTimer(SoundTimerHandle,this,&ABeachAnimal::DestroyActors,1.0f,false,1.0f);
+		GetWorld()->GetTimerManager().SetTimer(SoundTimerHandle, this, &ABeachAnimal::DestroyActors, 1.0f, false, 1.0f);
 	}
 }
 

@@ -1,5 +1,4 @@
 #pragma once
-
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "BeachAnimal.generated.h"
@@ -13,10 +12,11 @@ UCLASS()
 class SECONDTASK_API ABeachAnimal : public APawn
 {
 	GENERATED_BODY()
+
 protected:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Settings")
 	USceneComponent* SceneComponent;
-	
+
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Settings")
 	UStaticMeshComponent* BodyMesh;
 
@@ -45,16 +45,15 @@ public:
 	ATargetPoint* TargetPoint;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
-	float MoveSpeed=200.0f;
+	float MoveSpeed = 200.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
-	float MinimalDistance=1.0f;
-	
+	float MinimalDistance = 1.0f;
+
 	UFUNCTION()
 	void SetTargetPoint(ATargetPoint* NewTargetPoint);
-	
+
 protected:
-	
 	FTimerHandle SoundTimerHandle;
 	FVector GetMovePosition(float DeltaTime);
 	FRotator GetRotation();
@@ -63,9 +62,5 @@ protected:
 	void Diving();
 	void DestroyActors();
 
-	bool bTurtleAlive=true;
+	bool bTurtleAlive = true;
 };
-
-
-
-
